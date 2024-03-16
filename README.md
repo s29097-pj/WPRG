@@ -1,1 +1,2 @@
 # WPRG
+## Warsztaty programistyczne
