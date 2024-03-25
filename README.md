@@ -1,2 +1,2 @@
 # WPRG
-## Warsztaty programistyczne
+## Warsztaty programistyczne - PHP
