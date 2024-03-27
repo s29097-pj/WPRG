@@ -1,12 +1,12 @@
 ## Zjazd 01 
 
-###Zad_01 
+### Zad_01 
 Stwórz tablicę zawierającą nazwy kilku owoców (np. "jabłko", "banan", "pomarańcza"). Napisz pętlę, która wyświetli każdy owoc w osobnej linii, pisany od tyłu (nie używaj żadnej funkcji wbudowanej) oraz informację, czy dany owoc zaczyna się literą "p". 
-###Zad_02 
+### Zad_02 
 Napisz program, który wypisze na ekranie wszystkie liczby pierwsze z zadanego zakresu. 
-###Zad_03 
+### Zad_03 
 Dla zadanego N napisz program wyliczający N-tą liczbę Fibonacciego. Ciąg powinien zostać zapisany w tablicy, a następnie program wypisze nieparzyste elementy tablicy. Każdy element powinien być w nowej linii, a linie powinny być ponumerowane.  
-###Zad_04 
+### Zad_04 
 Stwórz z tekstu tablicę (używając explode): 
 
 ```php
