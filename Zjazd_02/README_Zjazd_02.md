@@ -1,6 +1,7 @@
 ## Zjazd 02 
 
-### Zadania  
+### Zadania 
+
 ### Zad_01 
 **Prosty kalkulator:**
 - [ ] a. stwórz formularz z miejscem na wpisanie 2 liczb oraz wyborem działania (dodawanie, odejmowanie, mnożenie, dzielenie)
@@ -9,10 +10,10 @@
 **Formularz rezerwacji hotelu:**
 - [ ] a. stwórz formularz, który będzie pozwalał: podać z listy rozwijanej ilość osób (1-4), których dotyczy rezerwacja, wpisać dane osoby rezerwującej pobyt np. imię, nazwisko, adres, dane karty kredytowej, e-mail, podać datę pobytu, czy godzinę przyjazdu itd. (pamiętając o odpowiedniej walidacji pól - typach), zaznaczyć czy jest potrzeba dostawienia łóżka dla dziecka, z listy wybrać odpowiednie udogodnienia np. klimatyzacja i popielniczka dla palacza (pamiętaj określić które pola są wymagane)
 - [ ] b. stwórz skrypt PHP, który odbierze powyższe dane i w ładny i przejrzysty sposób wyświetli podsumowanie rezerwacji (użyć do wyświetlenia szablonu HTML
-## Zad_03
+### Zad_03
 **Dla zadania nr 2** 
 - [ ] dodaj krok, w którym w zależności od liczby osób wyświetli się formularz, który pozwoli uzupełnić podstawowe dane tych osób w zgrupowanych formularzach i doda tę informację do podsumowania rezerwacji.
-## Zad_04
+### Zad_04
 **Czy dana liczba jest liczbą pierwszą?**
 - [ ] a. stwórz formularz z miejscem na wpisanie liczby
 - [ ] b. stwórz skrypt PHP, który przyjmie liczbę z formularza (sprawdzi czy to na pewno liczba całkowita dodatnia), a następnie wywoła funkcję, sprawdzającą czy liczba jest liczbą pierwszą
