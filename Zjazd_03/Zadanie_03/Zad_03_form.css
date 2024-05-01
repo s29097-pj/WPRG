@@ -1,0 +1,85 @@
+/* form.css */
+
+/* Ustawienia ogólne dla całego dokumentu */
+body {
+    /* Ustawiamy czcionkę na Arial lub sans-serif, jeśli Arial nie jest dostępna */
+    font-family: Arial, sans-serif;
+    /* Ustawiamy wysokość linii na 1.6 */
+    line-height: 1.6;
+    /* Ustawiamy kolor tekstu na ciemnoszary */
+    color: #333;
+    /* Ustawiamy kolor tła na nieco ciemniejszy odcień szarości */
+    background-color: #e0e0e0;
+    /* Dodajemy padding dookoła całego dokumentu */
+    padding: 20px;
+}
+
+/* Ustawienia dla nagłówków h1, h2, h3 */
+h1, h2, h3 {
+    /* Ustawiamy kolor nagłówków na ciemnoszary */
+    color: #444;
+}
+
+/* Ustawienia dla paragrafów */
+p {
+    /* Dodajemy margines na dole każdego paragrafu */
+    margin-bottom: 20px;
+}
+
+/* Ustawienia dla linków */
+a {
+    /* Ustawiamy kolor linków na niebieski */
+    color: #06c;
+    /* Usuwamy podkreślenie linków */
+    text-decoration: none;
+}
+
+/* Ustawienia dla linków po najechaniu na nie myszką */
+a:hover {
+    /* Zmieniamy kolor linków na ciemnoniebieski po najechaniu na nie myszką */
+    color: #039;
+}
+
+/* Ustawienia dla formularzy */
+form {
+    /* Ustawiamy kolor tła formularzy na biały */
+    background: #fff;
+    /* Dodajemy padding dookoła zawartości formularzy */
+    padding: 20px;
+    /* Dodajemy margines na górze i na dole formularzy */
+    margin: 20px 0;
+    /* Dodajemy cień dookoła formularzy */
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Ustawienia dla przycisków submit */
+input[type="submit"] {
+    /* Ustawiamy kolor tła przycisków submit na niebieski */
+    background: #06c;
+    /* Ustawiamy kolor tekstu przycisków submit na biały */
+    color: #fff;
+    /* Usuwamy obramowanie przycisków submit */
+    border: 0;
+    /* Dodajemy padding dookoła tekstu przycisków submit */
+    padding: 10px 20px;
+}
+
+/* Ustawienia dla przycisków submit po najechaniu na nie myszką */
+input[type="submit"]:hover {
+    /* Zmieniamy kolor tła przycisków submit na ciemnoniebieski po najechaniu na nie myszką */
+    background: #039;
+    /* Zmieniamy kursor na pointer po najechaniu na przyciski submit */
+    cursor: pointer;
+}
+
+/* Ustawienia dla diva z wynikami */
+.result {
+    /* Ustawiamy kolor tła diva z wynikami na biały */
+    background: #fff;
+    /* Dodajemy padding dookoła zawartości diva z wynikami */
+    padding: 20px;
+    /* Dodajemy margines na górze i na dole diva z wynikami */
+    margin: 20px 0;
+    /* Dodajemy cień dookoła diva z wynikami */
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}

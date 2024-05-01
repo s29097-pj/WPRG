@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz obsługi katalogów</title>
+    <link rel="stylesheet" href="Zad_03_form.css">
+</head>
+<body>
+<!-- Nagłówek nad formularzem -->
+<h1>Formularz obsługi katalogów</h1>
+<!-- Informacja dla użytkownika -->
+<p><strong>Uwaga:</strong> </p>
+<ul>Komunikat błędu "mkdir(): No such file or directory" sugeruje, że ścieżka, którą podałeś w formularzu, nie istnieje na Twoim serwerze. Upewnij się, że ścieżka, którą podajesz w formularzu, istnieje na Twoim serwerze. Ścieżka powinna być relatywna do miejsca, w którym uruchamiany jest skrypt PHP, a nie do korzenia systemu plików.</ul>
+<!-- Przykładowe użycie -->
+<p><strong>Przykładowe użycie:</strong></p>
+<ul>
+    <li>W polu "Ścieżka" wpisz ścieżkę do katalogu, na którym chcesz wykonać operację. </li>
+        <!-- Przykładowa ścieżka: ./moje_katalogi/ -->
+    <ul>Na przykład: <pre><code>./moje_katalogi/</code></pre></ul>
+    <li>W polu "Nazwa katalogu" wpisz nazwę katalogu, na którym chcesz wykonać operację. </li>
+        <!-- Przykładowa nazwa katalogu: testowy_katalog -->
+    <ul>Na przykład: <pre><code>testowy_katalog</code></pre></ul>
+    <li>W polu "Operacja" wybierz operację, którą chcesz wykonać. </li>
+        <!-- Przykładowe operacje: "Odczyt", "Usuń" lub "Stwórz" -->
+        <ul>Możesz wybrać jedną z trzech opcji: "Odczyt", "Usuń" lub "Stwórz".</ul>
+</ul>
+<!-- Formularz do wprowadzenia ścieżki, nazwy katalogu i operacji -->
+<form method="post" action="Zad_03_form.php">
+    Ścieżka: <input type="text" name="path"><br>
+    Nazwa katalogu: <input type="text" name="dirName"><br>
+    Operacja: <select name="operation">
+    <option value="read">Odczyt</option>
+    <option value="delete">Usuń</option>
+    <option value="create">Stwórz</option>
+</select><br>
+    <input type="submit" name="submit" value="Wykonaj">
+</form>
+</body>
+</html>
