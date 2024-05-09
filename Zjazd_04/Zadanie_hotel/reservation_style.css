@@ -1,0 +1,111 @@
+/* reservation_style.css */
+
+/* Stylizacja dla całego ciała dokumentu */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Stylizacja dla kontenera */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Stylizacja dla nagłówków h2 */
+h2 {
+    color: #4caf50; /* Zielony kolor dla tytułów */
+}
+
+/* Stylizacja dla paragrafów */
+p {
+    margin-bottom: 10px;
+}
+
+/* Stylizacja dla etykiet */
+label {
+    font-weight: bold;
+}
+
+/* Stylizacja dla pól tekstowych, email i select */
+input[type="text"],
+input[type="email"],
+select {
+    width: 30%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Stylizacja dla checkboxów */
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.welcome-message {
+    font-size: 24px;
+    color: red;
+}
+
+/* Stylizacja dla przycisku submit */
+input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Stylizacja dla przycisku submit podczas najechania myszką */
+input[type="submit"]:hover {
+    background-color: #285229;
+}
+
+/* Stylizacja dla przycisku logout */
+.logout-button {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.logout-button:hover {
+    background-color: darkred;
+}
+
+/* Stylizacja dla pól login i password */
+input[type="text"][name="login"],
+input[type="password"][name="password"] {
+    width: 20%;
+}
+
+/* Media Queries dla różnych rozdzielczości ekranu */
+
+/* Dla urządzeń o szerokości ekranu mniejszej niż 600px */
+@media (max-width: 599px) {
+    input[type="text"],
+    input[type="email"],
+    select {
+        width: 80%; /* Szerokość pól wprowadzania danych na 80% */
+    }
+}
+
+/* Dla urządzeń o szerokości ekranu większej lub równej 600px */
+@media (min-width: 600px) {
+    input[type="text"],
+    input[type="email"],
+    select {
+        width: 30%; /* Szerokość pól wprowadzania danych na 30% */
+    }
+}
