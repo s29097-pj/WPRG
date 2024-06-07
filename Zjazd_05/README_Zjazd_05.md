@@ -17,19 +17,19 @@ Ustawienia bazy danych w MySQL Workbench:
 - ustawienie wielu instancji serwera MySQL:
     - `Edit` -> `Preferences` -> `Others` --> `Allow more than one instance of MySQL Workbench to run`
 
-![img_01.png](/img/img_01.png)
+![img_01.png](img/img_01.png)
 
-![img_02.png](/img/img_02.png)
+![img_02.png](img/img_02.png)
 
-![img_03.png](/img/img_03.png)
+![img_03.png](img/img_03.png)
 
 Ustawienie bazy w Windows 11:
 
-![img_04.png](/img/img_04.png)
+![img_04.png](img/img_04.png)
 
 Ustawienie bazy w PHPStorm:
 
-![img_05.png](/img/img_05.png)
+![img_05.png](img/img_05.png)
 
 b) Wykonać polecenie `SELECT` i przećwiczyć polecenia:
    - `mysqli_fetch_row`: Ta funkcja służy do pobierania wyników zapytania `SELECT` jako numerycznej tablicy. 
@@ -56,6 +56,6 @@ d) Załączyć skrypt PHP do repozytorium.
 
 Logi z działania skryptu:
 
-![img_06.png](/img/img_06.png)
+![img_06.png](img/img_06.png)
 
-![img_07.png](/img/img_07.png)
+![img_07.png](img/img_07.png)
