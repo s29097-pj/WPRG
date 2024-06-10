@@ -27,7 +27,7 @@ która będzie obliczać wartość ubezpieczenia na podstawie procentowej warto�
 pomniejszoną o 1% za każdy rok posiadania samochodu.
 (procentowa wartość * (wartość samochodu z dodatkami * ((100-liczba lat)/100)))
 
-Przykładowy output:
+**Przykładowy output:**
 ```php
 Informacje o nowym aucie:
 Model: Model A,
@@ -88,4 +88,18 @@ Przykładowe wywołanie metody `toString(): Product: Laptop, Price: 1500, Quanti
 Products in cart:
 Product: Laptop, Price: 1500, Quantity: 1
 Total price: 1500
+```
+**Przykładowy output:**
+```php
+Product: Laptop, Price: 1500, Quantity: 1
+Product: Telefon, Price: 500, Quantity: 2
+
+Products in cart:
+Product: Laptop, Price: 1500, Quantity: 1
+Product: Telefon, Price: 500, Quantity: 2
+Total price: 2500
+
+Products in cart:
+Product: Telefon, Price: 500, Quantity: 2
+Total price: 1000
 ```
